@@ -1,6 +1,6 @@
 git ---
-title: Three sets of random numbers
-author: You
+title: Four sets of random numbers
+author: Zhuohan Chi & Pengfei Lou
 output: html_document
 ---
 
@@ -55,6 +55,6 @@ hist(random_numbers3)
 # Random numbers 4
 
 ```{r, random-numbers4-histogram}
-#| fig.cap = "Third set of random numbers"
+#| fig.cap = "Fourth set of random numbers"
 hist(random_numbers4)
 ```
