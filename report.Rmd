@@ -1,4 +1,4 @@
-git ---
+---
 title: Four sets of random numbers
 author: Zhuohan Chi & Pengfei Lou
 output: html_document
@@ -11,23 +11,23 @@ here::i_am(
 ```
 
 ```{r, load-random-numbers, include = FALSE}
-#! TO DO: 
-#!   read random_numbers1 from output directory
+
 random_numbers1 <- readRDS(
   here::here("output/random_numbers1.rds")
 )
-#! TO DO: 
-#!   read random_numbers2 from output directory
+
 random_numbers2 <- readRDS(
   here::here("output/random_numbers2.rds")
 )
-#! TO DO: 
-#!   read random_numbers3 from output directory
+
 random_numbers3 <- readRDS(
   here::here("output/random_numbers3.rds")
 )
 random_numbers4 <- readRDS(
   here::here("output/random_numbers4.rds")
+)
+random_numbers5 <- readRDS(
+  here::here("output/random_numbers5.rds")
 )
 ```
 
@@ -57,4 +57,11 @@ hist(random_numbers3)
 ```{r, random-numbers4-histogram}
 #| fig.cap = "Fourth set of random numbers"
 hist(random_numbers4)
+```
+
+# Random numbers 5
+
+```{r, random-numbers5-histogram}
+#| fig.cap = "Fifth set of random numbers"
+hist(random_numbers5)
 ```
